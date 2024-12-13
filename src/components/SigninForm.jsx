@@ -33,6 +33,7 @@ const SigninForm = () => {
         <h2 className="text-3xl font-bold text-center mb-6 ">
           Register
         </h2>
+        
         <form onSubmit={handleSubmit}>
           <div className="mb-4  ">
             <label
@@ -77,6 +78,7 @@ const SigninForm = () => {
             >
               Password
             </label>
+
             <input
               type="password"
               id="password"

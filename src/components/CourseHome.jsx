@@ -6,7 +6,7 @@ import CourseLession from './CourseLession'
 import CourseRequire from './CourseRequire'
 
 
-const Home = () => {
+const CourseHome = () => {
   return (
 
    <>
@@ -23,4 +23,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default CourseHome;

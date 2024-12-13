@@ -29,7 +29,7 @@ const VideoTab = () => {
             key={tab}
             onClick={() => setActiveTab(tab)} // Set active tab on click
             className={`p-3 text-gray-600 hover:text-blue-500 focus:text-blue-500 border-b-2 transition ${
-              activeTab && activeTab === tab ? "border-blue-500 text-blue-500" : "border-transparent"
+              activeTab && activeTab === tab ? "border-blue-500 text-blue-500" : "border-transparent "
             }`}
           >
             {tab}
